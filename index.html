@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <h1>Cascading Dropdown Selection</h1>
+    <form action="">
+        country: <select name="country" id="country">
+            <option value="" selected="selected">Select country</option>
+        </select>
+        <br><br>
+        division: <select name="division" id="division">
+            <option value="" selected="selected">Please Select country first</option>
+        </select><br><br>
+        distric: <select name="distric" id="distric">
+            <option value="" selected="selected">Please Select division first</option>
+        </select>
+        <br><br>
+        Thana: <select name="thana" id="thana">
+            <option value="" selected="selected">Please Select division first</option>
+        </select>
+        <br><br>
+        union: <select name="union" id="union">
+            <option value="" selected="selected">Please Select thana first</option>
+        </select>
+        <br><br>
+        word: <select name="word" id="word">
+            <option value="" selected="selected">Please Select union first</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+
+    </form>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
